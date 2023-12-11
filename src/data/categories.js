@@ -4,7 +4,7 @@ export const categories = [
         name:"tropicales",
         img:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bananas.jpg/1920px-Bananas.jpg",
         category: "dulces",
-        icono:"https://sicarfarms.com/wp-content/uploads/2021/01/Platano.png",
+        icono:'',
       },
       {
         id: 2,
@@ -18,7 +18,7 @@ export const categories = [
         name:"Citricos",
         img:"https://www.frutamare.com/wp-content/uploads/2021/03/propiedades-de-la-ciruela.jpg",
         category: "citricos",
-        icono:"https://sicarfarms.com/wp-content/uploads/2021/01/Naranja.png",
+        icono:"../../public/cereza.png",
       },
       {
         id: 4,

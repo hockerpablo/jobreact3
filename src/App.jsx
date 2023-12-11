@@ -4,19 +4,20 @@ import { BurguerMenu } from './components/togglebar/ToggleMenu';
 
 
 
+
 function App(){
   return (
-  <>
-  
-  <BurguerMenu>
+    
+    
+    <BurguerMenu>
 
   <Routes />
   <GlobalStyles />
 
   </BurguerMenu>
+  
  
   
-  </>
   )
 }
 

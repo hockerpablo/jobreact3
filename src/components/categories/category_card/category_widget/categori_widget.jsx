@@ -1,9 +1,13 @@
-import { categories } from "../../../../data/categories"
+import { useSelector } from "react-redux"
+
 import { CategoryCard } from "../category_card"
 import { CategoryContainer, CategoryCont } from "./styles"
 
 
 export const CategoryWidget = () => {
+ 
+   const categories = useSelector(state => state.categories.categories)
+
   return (
     <CategoryContainer>
 
@@ -20,3 +24,4 @@ export const CategoryWidget = () => {
   
   )
 }
+export default CategoryWidget;
